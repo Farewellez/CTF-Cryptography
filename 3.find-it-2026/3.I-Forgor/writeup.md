@@ -277,14 +277,6 @@ Kalau challenge ini memang intended sebagai RSA break murni, kemungkinan besar:
 
 ---
 
-## Catatan Akhir
-
-Kalau ingin dijadikan write-up submission/internal note, bagian penutup yang aman adalah:
-
-> Vulnerability utama terletak pada modulus RSA yang memiliki faktor kecil dan dapat diserang dengan Pollard p-1. Namun artefak ciphertext pada file release tidak konsisten, sehingga plaintext/flag final tidak dapat diverifikasi dari file yang diberikan.
-
-Kalau ingin, saya juga bisa buat versi write-up yang lebih rapi untuk publikasi:
-
 - gaya CTFtime
 - gaya blog teknis
 - versi Bahasa Inggris
