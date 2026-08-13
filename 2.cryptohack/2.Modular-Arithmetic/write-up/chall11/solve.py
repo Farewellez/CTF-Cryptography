@@ -42,4 +42,4 @@ p = gcd(A,N)
 q = N//p
 
 assert p * q == N
-print(f"p = {p}\nq = {q}")
+print(f"p = {p}\nq = {q}")  
