@@ -1,7 +1,7 @@
 import requests
 from tqdm import tqdm
 
-url = "https://aes.cryptohack.org/ecbcbcwtf"
+url = "https://aes.cryptohack.org"
 
 def fixed_xor(b1,b2):
     return bytes([x ^ y for x, y in zip(b1,b2)])
